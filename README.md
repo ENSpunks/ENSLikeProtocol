@@ -13,82 +13,53 @@
 
 ### WHAT DO YOU WANT TO BUILD ON ENS?
 
-NameSys is an umbrella developer factory dedicated to creating cost-efficient, open-source and accessible cryptonative products helping scale ENS adoption through immediate and tangible benefits to end users. High gas fees have been a burden on the accessibility of Ethereum and ENS for a while now. NameSys attempts to resolve these gas issues by developing secure off-chain infrastructures that can replace some of the on-chain functionailties of ENS domains, in particular the Resolver. This on-chain to off-chain offloading has massive impact on the overall gas overhead for managing and truly utilising an ENS name. [CCIP-Read](https://eips.ethereum.org/EIPS/eip-3668) (EIP-3668) and [ENS Wildcard Resolution](https://docs.ens.domains/ens-improvement-proposals/ensip-10-wildcard-resolution) (ENSIP-10) form the backbone of most of the NameSys infrastructure.
+I want to build ENS Like Protocol ("ELP"), a DApp built on gas free (IPFS + CCIP-Read) ENS records enabling users to decentrally "like" content across the web using their ENS name.
 
-The on-chain to off-chain offloading of the Resolver has several beneficial features other than the cost efficiency. For instance, no-cost dynamic off-chain content could now be injected in ENS Records to replace the static and expensive on-chain content. This feature is most impactful in the [ENS Contenthash Field](https://docs.ens.domains/ens-improvement-proposals/ensip-7-contenthash-field) (ENSIP-07) responsible for decentralised web content. NameSys infrastructure makes it possible to render dynamic web-content in Contenthash at zero cost! This development has the potential to drastically expand the usecases emerging from ENS Contenthash.
+ENSpunks previously developed [LikeButton.eth](https://LikeButton.eth.limo) consistenting of a $❤️ token collectively owning LikeButton.eth.  $❤️ was popular within the ENS community but widespread adoption suffered from high network costs (gas), even on L2s. The $❤️ token 
 
-Our projected development path is as follows:
+ENS records have always been a solution to the problems of supply, distribution, and pointing to content. However, historically ENS records have been outright cost prohibitive, at times costing as much as $10 in network fees to add a custom ENS record. 
 
-#### CORE INFRASTRUCTURE
+Using recently released IPFS and CCIP-Read opensource ENS infrastructure, developed by NameSys, I want to launch ELP as the first in a new class of DApps developed on ENS records that are token, NFT and gas free.  
 
-- **`NameSys.eth` :** ENS Off-Chain Records Manager
+#### UX/UI 
+
+- **`Connecting your Wallet and Selecting an ENS Name`:** 
    
-   Off-Chain Records are NameSys's core premise. NameSys's Record Manager infrastructure (including the on-chain Resolver) could be much more efficient and upgradeable than what it currently is. 
+   Users "install the DApp" by minting a ❤️ subdomain on their own ENS name (Ex.: ❤️.enspunks.eth).  Users can do this on enslikeprotocol.eth.limo and automatically set the IPFS + CCIP-Read gas free resolver.  Our users can mint the subdomain on any other platform and change the ENS resolver of their ❤️ subdomain too resolver.enslikeprotocol.eth.  
 
-- **`dAppSys.eth` :** dApp Store for ENS Domains 
+- **`Creating ENS ❤️ Records` :**  
 
-   NameSys's Off-Chain infrastructure can be bootstrapped to provide a dApp Store-like feature where users can 'install' a dApp by posting a signed ENS Record, and then access the installed dApp at `dapp.domain.eth`.
+   Users can create (and delete)  [❤️: content link] ENS records on UI the user can access at both <user>.enslikeprotocol.eth.limo and ❤️.<user>.eth.limo.  
 
-- **`notAPI.eth` :** Serverless GET-Only Web3 JSON API using ENS Wildcard Resolution and On-Chain Data 
+- **`The ❤️ Social Graph` :**
 
-- **`htmx3.eth` :** On-Chain HTMX Generator using ENS Wildcard Resolution and On-Chain Data
-
-- **`namesys.js` :** Open-Source Library for implementing NameSys Infrastructure
-
-#### IPNS PUBLISHER SERVICE
-- **IPNS CID Hosting:** Public free-to-use IPNS Publishing and Pinning Service with Keyless Record Management. This service can be synced to IPFS Network and/or L2 Events or Data
-
-#### OTHER SIDE PROJECTS
-- ENS + Bitcoin Lightning Compatibility
-- IPLD Integration in ENS Contenthash and other relevant fields
-
-#### †FUTURISTIC STUFF
-- ZK Proofs as ENS Records
-- Off-Chain 2PC and MPC using ENS
-
-> † not covered by this stream
+  ENS users will be able to search ENS names and view their ❤️ ENS records through the UI. The ❤️  social graph will be interoperable with other protocols and social graphs such as Ethereum Follow Protcol (EFP).  
 
 ### PAST EXPERIENCE WORKING ON ENS
-The team behind NameSys has been part of the Ethereum & ENS ecosystem for several years, and have already built useful infrastructure benefitting ENS, Ethereum and in some cases even generic crypto users. While NameSys is mostly known for a Off-Chain Records, the time behind it has created an array of protocols and products in the past. Here goes:
+ENSpunks.eth has been with the ENS ecosystem for several years worked on the follows:
 
-#### `NameSys.eth` Stack
-ENS Off-Chain Records Manager stack (Web Client + Support Services) with support for web3 IPFS and traditional web2 server for storage. Web Client can be accessed [here](https://namesys.xyz).
+#### `Searchd.eth`
+[Searchd.eth](https://searchd.eth.limo), fromerly [Geocities.eth](https://geocities.eth.limo),  is a .eth website search engine and general resource connecting ENS users with the ENS ecosystem for building on ENS names.
 
-#### `CCIP2.eth` Resolver
-Gasless [Resolver for Off-Chain Records](https://etherscan.io/address/0x839b3b540a9572448fd1b2335e0eb09ac1a02885) which functions adjacent to the Web Client 
+#### `LikeButton.eth`
+[LikeButton.eth](https://likebutton.eth.limo) was the initial iteration of a "decentralized like button" for the ENS community.
 
-#### `DOSTR.eth` Adaptor
-[Dostr](https://dostr.xyz) is an ENS-aware Ethereum Adaptor for Nostr Network which allows Nostr to function with Ethereum wallets. At its heart lies a [seamless key generation algorithm](https://github.com/dostr-eth/nips/blob/ethkeygen/111.md) that interfaces the Bitcoin-native Schnorr Signature scheme and the Ethereum-native `secp256k1` scheme.
-
-#### `IPFS2.eth` Gateway
-Web3 IPFS Gateway [`IPFS2.eth.limo`](https://ipfs2.eth.limo) that uses ENS Wildcard Resolution (ENSIP-10) to resolve IPFS, IPNS or IPLD content.
-
-#### `isTest.eth` Bridge
-Testnet-to-Mainnet [Resolver](https://etherscan.io/address/0x0Db7E56BFE3cbCD7B952F750c303CbF809585C6b#code) (or vice-versa) for ENS Contenthash. Simply render your Testnet (Goerli) Contenthash for `domain.eth` on Mainnet as a subdomain `domain.istest.eth`
-
-#### `Helix2.eth` Abstraction
-ENS-compatible [Link Service Protocol](https://github.com/helix-coupler/resources/blob/master/yellow-paper/helix2.pdf) that allows for multi-party linking in configurable spaces.
-
-#### `ed25519-keygen/ipns` Library
-Contributed IPNS `base36` CID Support in [`paulmillr/ed25519-keygen`](https://github.com/paulmillr/ed25519-keygen/pull/10) library
+#### `BoredENSYachtClube.eth`
+[BoredENSYachtClube.eth](https://BoredENSYachtClube.eth.limo) is an pre-namewrapper ENS subdomain collection using a custom contract using IPFS data, CCIP-Read and ENS Wild Card Resolution.  Almost 1,000 subdomains were minting forming formed a ENS community sub-DAO where members used their subdomains to vote in snapshots that determined how the Club delegate voted in the DAO votes and Small Grants. 
 
 ### SIZE OF TEAM AND COMMITMENT
-- Two Full-time Cryptographers & Engineers (`sshmatrix.eth` & `freetib.eth`)
-- One Social & Public Relations Manager
-- †One Frontend Web Developer
-- †One Backend & SRE Developer
-- †One Media Developer & Designer
+- Part-time to Full-time (`enspunks.eth`)
+- Designer*
+- Frontend Web Developer*
 
-> † to be hired when or if funds are available
+> *contract work
 
 ### FURTHER INFORMATION AND LINKS:
-
-**GITHUB:** [`github.com/namesys-eth`](https://github.com/namesys-eth)
 
 **TWITTER/X:** [`x.com/enslikeprotcol`](https://x.com/enslikeprotocol)
 
 ### CONFLICT OF INTEREST STATEMENT:
-enspunks.eth received `1ETH` as a winner of the Bug Bash
+enspunks.eth received `1ETH` as a winner of the ENS Bug Bash
 
 ### 10k ENDORSEMENT LINK:
 [`https://snapshot.org/#/nominations.ens.eth/proposal/0x64fbc81a7ab8b57deea798df03141fa1b7d1f2fce6f1051b580e568ca89e8070`](https://snapshot.org/#/nominations.ens.eth/proposal/0x64fbc81a7ab8b57deea798df03141fa1b7d1f2fce6f1051b580e568ca89e8070)
