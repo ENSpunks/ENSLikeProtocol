@@ -10,11 +10,11 @@
 
 ### WHAT DO YOU WANT TO BUILD ON ENS?
 
-ENS Like Protocol (ELP) is a opensource system and method for liking content across the web built using ENS records powered by IPFS + CCIP-Read infrastructure.
+ENS Like Protocol (ELP) is a opensource system and method for liking content across the web built on ENS records.
 
-ENSpunks previously developed [LikeButton.eth](https://LikeButton.eth.limo) consistenting of a $❤️ token. $❤️ was popular within the ENS community but widespread adoption was never achieved in part due to network fees, even when reduced using L2 solutions. 
+ENSpunks previously launched [LikeButton.eth](https://LikeButton.eth.limo) a community owned ENS name consistenting of a $❤️ ownership tokens. $❤️ was popular within the ENS community; however,  widespread adoption was never achieved in part due to network fees.   
 
-Using new IPFS and CCIP-Read infrastructure a ELP will create a interoperable and open social graph gas free on ENS records.  ELP will help introduce ENS users and developers to DApps built on ENS records and help scale ENS record usage to a million unique ENS names.
+Using new IPFS and CCIP-Read infrastructure ELP will create a interoperable and open social graph gas free on ENS records.  ELP will help introduce scale integration and adoption of ENS records to a million ENS names with records set.
 
 #### UX/UI 
 
@@ -24,14 +24,14 @@ Using new IPFS and CCIP-Read infrastructure a ELP will create a interoperable an
 
 - **`Creating ENS ❤️ Records` :**  
 
-   Users can manage (create and delete) gas free ❤️ ENS records [❤️: content link]  on a user friendly UI the user can access decentrally on their own subdomain decentralized website ❤️.<user>.eth.limo.  
+   Users can manage (create and delete) gas free ❤️ ENS records [❤️: content link]  on a user friendly UI the user can access decentrally on their own subdomain decentralized website ❤️.<user>.eth.limo. 
 
 - **`The ❤️ Social Graph` :**
 
   ENS users will be able to search ENS names and view their ❤️ ENS records through the UI. However, the ❤️  social graph will be open and interoperable with other protocols such as Ethereum Follow Protcol (EFP).  
 
 ### PAST EXPERIENCE WORKING ON ENS
-ENSpunks.eth has been part of the ENS ecosystem for several years, including:
+ENSpunks.eth has experimented in the ENS ecosystem for several years, including:
 
 #### `Searchd.eth`
 [Searchd.eth](https://searchd.eth.limo), fromerly [Geocities.eth](https://geocities.eth.limo), a .eth website search engine and general resource for ENS users.
@@ -40,11 +40,10 @@ ENSpunks.eth has been part of the ENS ecosystem for several years, including:
 [LikeButton.eth](https://likebutton.eth.limo)  the first iteration of a "decentralized like button" for the ENS community built with $❤️.
 
 #### `BoredENSYachtClub.eth`
-[BoredENSYachtClube.eth](https://BoredENSYachtClube.eth.limo) is an pre-namewrapper ENS subdomain collection using a custom contract using IPFS data, CCIP-Read and ENS Wild Card Resolution.  Almost 1,000 subdomains were minting forming formed a ENS community sub-DAO where members used their subdomains to vote in snapshots that determined how the Club delegate voted in the DAO votes and Small Grants. 
+[BoredENSYachtClube.eth](https://BoredENSYachtClube.eth.limo) is an pre-namewrapper ENS subdomain collection using a custom contract leveraging IPFS data, CCIP-Read and ENS Wild Card Resolution.  Almost 1,000 subdomains were minting forming a ENS community sub-DAO where members have used their subdomains to vote in snapshots that determined how the delegate voted in the ENS DAO for elections and Small Grants. 
 
 ### SIZE OF TEAM AND COMMITMENT
 - Full-time (`enspunks.eth`)
-
 
 ### FURTHER INFORMATION AND LINKS:
 
