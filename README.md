@@ -10,13 +10,13 @@
 
 ### WHAT DO YOU WANT TO BUILD ON ENS?
 
-ENS Like Protocol (ELP) is a opensource system and method for liking content across the web built on gasless ENS records.
+ENS Like Protocol (ELP) is a opensource system for liking content across the web built on gasless ENS records.
 
-ENSpunks previously launched $❤️, a non-financial token that collectively owned LikeButton.eth.  $❤️ was popular within the ENS community as a way for one ENS user to send another ENS user ❤️ onchain.  One dev from the ENS community built a $❤️ chrome extension making it easy to give ❤️ on Twitter, and the eth.photos integrated a ❤️ counter in their ENS profiles.  Notwithstanding community and developer support, network fees slowed adoption and likebutton.eth operated as a public good while failing to obtain public goods funding. 
+ENSpunks previously launched $❤️, a non-financial token representing a "decentralized like button" and community ownership of LikeButton.eth.  $❤️ was popular within the ENS community as a way for one ENS user to give another ENS user a ❤️ onchain for content on Twitter.  One dev from the ENS community even built a $❤️ chrome extension making it easy to give ❤️ on Twitter, and eth.photos integrated a ❤️ counter into their ENS profile pages.  Notwithstanding some community and developer support, likebutton.eth operated as a public good while failing to obtain public goods funding, and network fees otherwise hurt widespread adoption for the use case. 
 
-ELP will take the lessons learned with likebutton.eth and improve upon it with IPFS, CCIP-Read and ENS records.  Moreover, ELP will be a tokenless and gasless method for creating "❤️ ENS records" users can add that point to specific content across the web.  ELP hopes to help ENS records scale to 1 million users with a ENS record set and then scale to 1 million daily active users setting ENS records.
+ELP takes the lessons learned with likebutton.eth and rebuilds it as a tokenless, gasless and permissionless DApp on ENS records that can link to content across the web.  Using IPFS, CCIP-Read and ENS Records (ICE) DApps like ELP can help ENS scale to 1 million users with ENS records set and beyond to 1 million daily active users setting ENS records.
 
-| ENS Record Managers      | Gas Free Records | ENS Record DApps      | ENS Record profile/Gateway|
+| ENS Record Managers      | Gas Free Records | IPFS+CCIP+ENS (ICE) DApps      | ENS Record profile/Gateway|
 | ----------- | ----------- | ----------- | ----------- |
 | ens.domains      | NameSys       | Ethereum Like Protocol      | eth.limo/Nimi      |
 | ens.vision   |       |     | eth.cd       |
