@@ -64,5 +64,5 @@ ENSpunks.eth has been building in the ENS ecosystem for several years, projects 
 ### 10k ENDORSEMENT LINK:
 [`https://snapshot.org/#/nominations.ens.eth/proposal/`](https://snapshot.org/#/nominations.ens.eth/proposal/)
 
-### BUGDET REQUESTED:
+### BUDGET REQUESTED:
 `$100,000 USD`
