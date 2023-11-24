@@ -16,7 +16,7 @@ Prior to ELP, ENSpunks launched LikeButton.eth as a way for ENS users to give ot
 
 ELP takes the lessons learned from likebutton.eth and rebuilds on the idea with a tokenless, gasless and permissionless tech stack built on ENS records enabling ENS users to link to any content across the web.  More generally,  DApps built on IPFS, CCIP-Read and ENS Records (ICE), like ELP, can help ENS scale to a million users with ENS records set and then to a million daily active users setting ENS records.
 
-| ENS Record Managers      | Gas Free Records | IPFS+CCIP+ENS (ICE) DApps      | ENS Record profile/Gateway|
+| ENS Record Managers      | Gas Free Records | IPFS+CCIP+ENS Record (ICE) DApps      | ENS Record profile/Gateway|
 | ----------- | ----------- | ----------- | ----------- |
 | ens.domains      | NameSys       | Ethereum Like Protocol      | eth.limo/Nimi      |
 | ens.vision   |       |     | eth.cd       |
