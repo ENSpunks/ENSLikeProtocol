@@ -12,7 +12,7 @@
 
 ENS Like Protocol (ELP) is a opensource system and method for liking content across the web built on gasless ENS records.
 
-ENSpunks previously launched [LikeButton.eth](https://LikeButton.eth.limo) using a non-financial $❤️ a token. $❤️ was popular within the ENS community and as a way for one ENS user to send another ENS user ❤️ onchain.  One dev from the ENS community built a $❤️ chrome extension making it easy to give ❤️ on Twitter, and the eth.photos ENS record viewer integrated a ❤️ counter in their ENS profiles.  However, likebutton.eth was operated as a public good while failing to obtain public goods funding, and network fees slowed adoption. 
+ENSpunks previously launched [LikeButton.eth](https://LikeButton.eth.limo) using a non-financial $❤️ token.  $❤️ was popular within the ENS community and as a way for one ENS user to send another ENS user ❤️ onchain.  One dev from the ENS community built a $❤️ chrome extension making it easy to give ❤️ on Twitter, and the eth.photos ENS record viewer integrated a ❤️ counter in their ENS profiles.  However, likebutton.eth was operated as a public good while failing to obtain public goods funding, and network fees slowed adoption. 
 
 Using IPFS and CCIP-Read infrastructure ELP will solve the problems with likebutton.eth.  Specifically, ELP will be a tokenless and gasless method for creating "❤️ ENS records" that can point to content across the web.  More generally, ELP is a new type of DApp built on ENS records.  ELP hopes to help scale ENS records adoption to a million users with ENS records set, then a million daily active users setting ENS records.
 
