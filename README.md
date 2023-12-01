@@ -26,14 +26,6 @@ ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenles
 |      |        |       | eth.photos       |
 |   |       |       | Rainbow.me       |
 
-#### Problem
-
-
-
-#### Solution 
-
-
-
 #### Specs 
 
 - **`❤️ Subdomain & ELP Gasless Resolver`:** 
