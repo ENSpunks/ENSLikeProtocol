@@ -15,7 +15,7 @@ ENS Like Protocol (ELP) is a opensource DApp for liking content across the web u
 
 Prior to ELP, ENSpunks launched LikeButton.eth as a way for ENS users to give other ENS users ❤️ onchain representing "decentralized likes." $❤️ was popular with both the ENS community and developers in the ENS ecosystem.  For example, a developer from the ENS community created a chrome extension for giving ❤️ on Twitter and eth.photos integrated ❤️ into their ENS profile pages.  However, network fees hurt widespread adoption and likebutton.eth otherwise operated as a public good but failed to obtain public goods funding. 
 
-ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenless, gasless and permissionless protocol native to ENS using gasless IPFS+CCIP-Read+ENS Records (ICE).  ELP will be part of the 
+ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenless, gasless and permissionless protocol native to ENS using gasless IPFS+CCIP-Read+ENS Records (ICE).  Between using gasless ENS records and focusing on organizing ENS records, and making records accessible and useful, ELP hopes to help ENS protocol scale to 1 millions users with unique text records set. 
 
 | ENS Record Managers      | Gas Free Records | IPFS+CCIP+ENS Record (ICE) DApps      | ENS Record profile/Gateway|
 | ----------- | ----------- | ----------- | ----------- |
@@ -25,6 +25,14 @@ ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenles
 | Namesys.xyz   |         |       | eth.co       |
 |      |        |       | eth.photos       |
 |   |       |       | Rainbow.me       |
+
+#### Problem
+
+
+
+#### Solution 
+
+
 
 #### Specs 
 
@@ -53,7 +61,7 @@ ENSpunks.eth has been building in the ENS ecosystem for several years, projects 
 [Searchd.eth](https://searchd.eth.limo), fromerly [Geocities.eth](https://geocities.eth.limo), a .eth website search engine and general resource for ENS users.
 
 ### SIZE OF TEAM AND COMMITMENT
-- Full-time (`enspunks.eth`)
+- Pending funding, there will be 1 full-time member of the team (`enspunks.eth`), a part-time social media/community manager, and contract workers when required for front-end and integrations. 
 
 ### FURTHER INFORMATION AND LINKS:
 
