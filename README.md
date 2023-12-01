@@ -56,7 +56,7 @@ ENSpunks.eth has been building in the ENS ecosystem for several years, projects 
 [Searchd.eth](https://searchd.eth.limo), fromerly [Geocities.eth](https://geocities.eth.limo), a .eth website search engine and general resource for ENS users.
 
 ### SIZE OF TEAM AND COMMITMENT
-- Pending funding, there will be 1 full-time member of the team (`enspunks.eth`), a part-time social media/community manager, and contract workers when required for front-end and integrations. 
+- Pending funding, there will be 1 full-time member of the team (`enspunks.eth`), a part-time social media/community manager, and contract workers when required for front-end development and integrations. 
 
 ### FURTHER INFORMATION AND LINKS:
 
