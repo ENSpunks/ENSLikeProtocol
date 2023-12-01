@@ -15,7 +15,7 @@ ENS Like Protocol (ELP) is a opensource DApp for liking content across the web u
 
 Prior to ELP, ENSpunks launched LikeButton.eth as a way for ENS users to give other ENS users ❤️ onchain representing "decentralized likes." $❤️ was popular with both the ENS community and developers in the ENS ecosystem.  For example, a developer from the ENS community created a chrome extension for giving ❤️ on Twitter and eth.photos integrated ❤️ into their ENS profile pages.  However, network fees hurt widespread adoption and likebutton.eth otherwise operated as a public good but failed to obtain public goods funding. 
 
-ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenless, gasless and permissionless tech stack using gasless ENS records.  ELP will use IPFS, CCIP-Read and ENS Records that will help ENS scale to a million users with ENS records set and then to a million daily active users setting ENS records.
+ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenless, gasless and permissionless protocol native to ENS using gasless IPFS+CCIP-Read+ENS Records (ICE).  ELP will be part of the 
 
 | ENS Record Managers      | Gas Free Records | IPFS+CCIP+ENS Record (ICE) DApps      | ENS Record profile/Gateway|
 | ----------- | ----------- | ----------- | ----------- |
@@ -38,7 +38,7 @@ ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenles
 
 - **`The ❤️ Social Graph` :**
 
-  ENS users can search ENS names and view their ❤️ ENS records through the UI. However, the ❤️  social graph will be open and interoperable with other protocols such as Ethereum Follow Protcol (EFP).  
+  ELP will organize the ❤️ ENS records, and make the accessible and useable for users and developers. For example, users can view and manage ❤️ ENS records through the user-friendly UI.  Moreover, ELP will be open and interoperable with other protocols such as Ethereum Follow Protcol (EFP).  
 
 ### PAST EXPERIENCE WORKING ON ENS
 ENSpunks.eth has been building in the ENS ecosystem for several years, projects ENSpunks worked on include:
@@ -64,7 +64,7 @@ ENSpunks.eth has been building in the ENS ecosystem for several years, projects 
 - Received `1ETH` as a winner of the ENS Bug Bash
   
 ### 10k ENDORSEMENT LINK:
-[`https://snapshot.org/#/nominations.ens.eth/proposal/`](https://snapshot.org/#/nominations.ens.eth/proposal/)
+[`tbd`](tbd)
 
 ### BUDGET REQUESTED:
 `$100,000 USD`
