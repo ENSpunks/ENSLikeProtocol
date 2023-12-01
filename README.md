@@ -36,7 +36,7 @@ ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenles
 
    Users can manage (create and delete) gasless ❤️ ENS records [❤️: content link]  on a user friendly UI at ❤️.<user>.eth.limo. 
 
-- **`The ❤️ Social Graph` :**
+- **`Organizing ❤️ Records and Making Them Accessible and Useable` :**
 
   ELP will organize the ❤️ ENS records, and make the accessible and useable for users and developers. For example, users can view and manage ❤️ ENS records through the user-friendly UI.  Moreover, ELP will be open and interoperable with other protocols such as Ethereum Follow Protcol (EFP).  
 
