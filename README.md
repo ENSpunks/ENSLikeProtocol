@@ -61,13 +61,14 @@ ENSpunks.eth has been building in the ENS ecosystem for several years, projects 
 ### FURTHER INFORMATION AND LINKS:
 
 **TWITTER/X:** [`x.com/enslikeprotcol`](https://x.com/enslikeprotocol)
+
 **GITHUB:** [`github.com/ENSpunks/ENSLikeProtocol`](https://github.com/ENSpunks/ENSLikeProtocol)
 
 ### CONFLICT OF INTEREST STATEMENT:
 - Received `1ETH` as a winner of the ENS Bug Bash
   
 ### 10k ENDORSEMENT LINK:
-[`tbd`](tbd)
+[`Snapshot`](https://snapshot.org/#/ens-streams.eth/proposal/0xfb0e88e63f21238a0b42275d0a92bdef78b41fc74e49aece0147111a6a0bb1da)
 
 ### BUDGET REQUESTED:
 `$100,000 USD`
