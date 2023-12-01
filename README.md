@@ -44,7 +44,7 @@ ELP takes the lessons learned from likebutton.eth and will rebuild as a tokenles
 ENSpunks.eth has been building in the ENS ecosystem for several years, projects ENSpunks worked on include:
 
 #### `BoredENSYachtClub.eth`
-[BoredENSYachtClube.eth](https://BoredENSYachtClube.eth.limo) is an pre-namewrapper ENS subdomain collection built with IPFS, CCIP-Read and ENS Wild Card Resolution.  Almost 1,000 subdomains were minted creating a ENS community sub-DAO where members discuss ENS DAO Small Grants, and vote their subdomains on snapshot collectively voting the community $ENS in the ENS DAO. 
+[BoredENSYachtClub.eth](https://BoredENSYachtClub.eth.limo) is an pre-namewrapper ENS subdomain collection built with IPFS, CCIP-Read and ENS Wild Card Resolution.  Almost 1,000 subdomains were minted creating a ENS community sub-DAO where members discuss ENS DAO Small Grants, and vote their subdomains on snapshot collectively voting the community $ENS in the ENS DAO. 
 
 #### `LikeButton.eth`
 [LikeButton.eth](https://likebutton.eth.limo)  the first experiment with a "decentralized like button" for the ENS community built with $❤️.
