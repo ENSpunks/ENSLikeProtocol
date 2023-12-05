@@ -1,16 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ENS Like Protocol</title>
+  <title>ENS Event Feed</title>
   <style>
-    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #events {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
-  <h1>❤️</h1>
-  <div id="etherscanFeed"></div>
+  <h1>ENS Event Feed</h1>
 
-  <script src="main.js"></script>
+  <div id="events">
+    <h2>Event Logs:</h2>
+    <ul id="eventLogs"></ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+  <script>
+    const INFURA_API_KEY = 'ede55845a9ea49c78a9b439a6ba2c6ea'; // Replace with your Infura API key
+    const web3 = new Web3(new Web3.providers.WebsocketProvider(`wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}`));
+
+    const ENSResolverABI = [
+      {
+        "inputs": [
+          {"internalType": "contract ENS", "name": "_ens", "type": "address"},
+          {"internalType": "contract INameWrapper", "name": "wrapperAddress", "type": "address"},
+          {"internalType": "address", "name": "_trustedETHController", "type": "address"},
+          {"internalType": "address", "name": "_trustedReverseRegistrar", "type": "address"}
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      // Add other function/event definitions here based on your ABI
+      {
+        "inputs": [{"internalType": "bytes32", "name": "node", "type": "bytes32"}],
+        "name": "text",
+        "outputs": [{"internalType": "string", "name": "", "type": "string"}],
+        "stateMutability": "view",
+        "type": "function"
+      }
+      // Add more function/event definitions if present in your ABI
+    ];
+    
+    const ENSResolverAddress = '0x231b0ee14048e9dccd1d247744d114a4eb5e8e63'; // Replace with the ENS Resolver contract address
+
+    const ENSResolverContract = new web3.eth.Contract(ENSResolverABI, ENSResolverAddress);
+
+    const eventLogsElement = document.getElementById('eventLogs');
+
+    // Listening to the event for when a text record with '❤️' key is set
+    ENSResolverContract.events.TextChanged({ filter: { key: '❤️' } })
+      .on('data', event => {
+        console.log('Text Record with ❤️ Key Set:', event.returnValues);
+        // Display the event data on the webpage
+        const listItem = document.createElement('li');
+        listItem.textContent = JSON.stringify(event.returnValues);
+        eventLogsElement.appendChild(listItem);
+      })
+      .on('error', error => {
+        console.error('Error:', error);
+      });
+  </script>
 </body>
 </html>
