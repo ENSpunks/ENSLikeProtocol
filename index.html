@@ -2,13 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Event Data Feed</title>
+  <title>Ethereum Web3.js Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
 </head>
 <body>
-  <h1>Event Data Feed</h1>
-  <div id="eventData"></div>
+  <h1>Ethereum Web3.js Test</h1>
+  
+  <div>
+    <button onclick="getLatestBlock()" id="blockButton">Get Latest Block Number</button>
+    <p id="blockNumber"></p>
+  </div>
 
-  <!-- Include your JavaScript file -->
-  <script src="ensreader.js"></script>
+  <h2>ENS Record Search Engine</h2>
+  <div style="display: flex; align-items: center;">
+    <input type="text" value="❤️" readonly style="width: 30px; background: transparent; border: none; font-size: 20px; color: red;" onclick="searchENSRecords('❤️')">
+    <button onclick="searchENSRecords('❤️')">Search</button>
+  </div>
+  <div style="margin-top: 10px;">
+    <input type="text" placeholder="Search ENS name">
+  </div>
+  <div style="margin-top: 10px;">
+    <input type="text" placeholder="ENS Record Key">
+  </div>
+  <div style="margin-top: 10px;">
+    <input type="text" placeholder="ENS Record Value">
+    <button>Search</button>
+  </div>
+
+  <script>
+    // Connect to Ethereum node using Infura WebSocket
+    const infuraUrl = 'wss://mainnet.infura.io/ws/v3/cbefc7f36ec74a86a1bd970464677dc6';
+    const web3 = new Web3(new Web3.providers.WebsocketProvider(infuraUrl));
+
+    // Function to get the latest block number and display it
+    function getLatestBlock() {
+      web3.eth.getBlockNumber()
+        .then(blockNumber => {
+          document.getElementById('blockNumber').textContent = `Latest Block Number: ${blockNumber}`;
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    }
+
+    // Placeholder function for searching ENS records based on emoji
+    function searchENSRecords(emoji) {
+      // Logic to search ENS records for the given emoji (to be implemented)
+      console.log(`Searching for records with emoji: ${emoji}`);
+      // Additional logic to fetch records based on the emoji
+    }
+  </script>
 </body>
 </html>
+
